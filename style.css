@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  min-height: 100vh;
+  background-image: url(/images/back-deepak.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jhalar{
+    max-width: 200px;
+}
+
+.para-audio-container {
+  margin-left: 15rem;
+}
+
+.para-audio-container p {
+  font-size: 46px;
+  font-family: "Salsa", cursive;
+  max-width: 530px;
+}
+audio::-webkit-media-controls-panel {
+  background-color: #fbd8a4; /* Replace with your desired color */
+}
+
+.audio-container {
+  background-color: #fbd8a4;
+  max-width: 510px;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "Salsa", cursive;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.diya{
+    max-width: 300px;
+}

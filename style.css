@@ -4,15 +4,15 @@
 }
 
 .hero-section {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-image: url(/images/back-deepak.png);
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 100vw;
 }
 
-.jhalar{
-    /* max-width: 10em; */
+.jhalar {
+  /* max-width: 10em; */
 }
 
 .para-audio-container {
@@ -44,29 +44,107 @@ audio::-webkit-media-controls-panel {
   margin-top: 20px;
 }
 
-.diya{
-    max-width: 300px;
+.diya {
+  max-width: 300px;
 }
-.music-txt{
-    flex-shrink: 0;
+.music-txt {
+  flex-shrink: 0;
+}
+.lakshmi-ganesh-img {
+  max-width: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lakshmi-section {
+  background-color: #f99501;
+  padding-top: 1rem;
 }
 
+.lakshmi-section p {
+  font-family: "Style Script", serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50vw;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 1rem;
+}
 
+.horizontal-divider {
+  display: flex;
+  justify-content: space-between;
+  max-width: 45vw;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin-bottom: 1rem;
+}
 
-@media (max-width:850px){
-    .second-diya, .music-txt, .music-group{
-        display: none;
-    }
-    .first-diya{
-        max-width: 200px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .para-audio-container p {
-        font-size: 25px;
-      }
-    .para-audio-container{
-        max-width: 90%;
-    }
+.circle {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #fbd8a4;
+  border-radius: 50%;
+}
+
+.line {
+  width: 20vw;
+  height: 1px;
+  background-color: #fbd8a4;
+}
+
+@media (max-width: 850px) {
+  .second-diya,
+  .music-txt,
+  .music-group {
+    display: none;
+  }
+  .first-diya {
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .para-audio-container p {
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .para-audio-container {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .jhalar {
+    max-width: 15rem;
+  }
+  .lakshmi-section p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
+    font-size: 1em;
+  }
+  .lakshmi-ganesh-img {
+    max-width: 80vw;
+  }
+
+  .horizontal-divider {
+    max-width: 70vw;
+  }
+
+  .circle {
+    width: 0.3rem;
+    height: 0.3rem;
+  }
+
+  .line {
+    width: 30vw;
+    height: 0.5px;
+    background-color: #fbd8a4;
+  }
+  .audio-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
